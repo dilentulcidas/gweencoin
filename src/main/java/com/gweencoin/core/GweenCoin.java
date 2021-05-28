@@ -11,6 +11,11 @@ public class GweenCoin
         this.id = UUID.randomUUID().toString();
     }
 
+    public String getId()
+    {
+        return id;
+    }
+
     @Override
     public String toString()
     {
